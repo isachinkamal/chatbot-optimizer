@@ -1,1 +1,7 @@
-# My Chatbot Optimizer
+# Chatbot NLP Threshold Optimizer 
+**By [Sachin Kamal]**
+
+## Key Improvements I Made:
+- Implemented dynamic thresholding for financial chatbots
+- Added Kore.ai API integration
+- Developed visualization tools
