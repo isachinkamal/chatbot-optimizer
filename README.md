@@ -18,6 +18,7 @@ Ideal for learning about:
 How to Run:
 ```bash
 python bot_optimizer.py
+```
 
 
 ## Key Improvements I Made:
