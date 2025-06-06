@@ -1,15 +1,12 @@
 
-# 🤖 Bot Optimizer – Event-Driven Proactive Bot Intelligence
+# Bot Optimizer – Event-Driven Proactive Bot Intelligence
 
-![Python](https://img.shields.io/badge/Built%20With-Python-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 > A lightweight, intelligent engine that scores, filters, and delivers **proactive messages** based on real-time events and user behavior—designed for chatbot platforms like **Kore.ai**, **Dialogflow**, or any custom stack.
 
 ---
 
-## 🔍 Overview
+## Overview
 
 Traditional bots wait for user input. This project flips that model using **Event-Driven Architecture (EDA)**—proactively engaging users when a meaningful system event occurs, like a failed payment, delivery delay, or login anomaly.
 
@@ -21,7 +18,7 @@ It includes:
 
 ---
 
-## 🧩 Key Features
+## Key Features
 
 ✅ Event scoring with dynamic thresholds  
 ✅ Personalized prioritization via engagement learning  
@@ -31,7 +28,7 @@ It includes:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python 3.x
 - `datetime`, `random`, `time` (standard libs)
@@ -39,7 +36,7 @@ It includes:
 
 ---
 
-## 🧪 How It Works
+## How It Works
 
 1. Event occurs (e.g., `payment_failed`).
 2. Bot Optimizer scores the event based on:
@@ -51,7 +48,7 @@ It includes:
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 ```bash
 git clone https://github.com/yourusername/bot-optimizer.git
@@ -61,7 +58,7 @@ python bot_optimizer.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 bot-optimizer/
@@ -73,63 +70,54 @@ bot-optimizer/
 
 ---
 
-## 🧭 Roadmap
+## Roadmap
 
-### ✅ Phase 1: Core Enhancements
+### Phase 1: Core Enhancements
 - [x] Event prioritization logic
 - [x] Simulated engagement tracking
 - [ ] Persistent storage (e.g., SQLite)
 - [ ] Config management with YAML or JSON
 - [ ] Logging instead of print()
 
-### 🚀 Phase 2: Integration
+### Phase 2: Integration
 - [ ] Webhook receiver (Flask/FastAPI)
 - [ ] Kore.ai integration (proactive dialog triggers)
 - [ ] Kafka or AWS SNS as event source
 
-### 🤖 Phase 3: Intelligence
+### Phase 3: Intelligence
 - [ ] ML-based scoring (XGBoost or Sklearn)
 - [ ] Behavioral time-based personalization
 - [ ] Dynamic message template selection
 
-### 🧪 Phase 4: Deployment & UI
+### Phase 4: Deployment & UI
 - [ ] Dockerize the app
 - [ ] Streamlit dashboard for event & engagement analytics
 - [ ] API + UI demo frontend
 
 ---
 
-## 📸 Example Output
+## Example Output
 
 ```plaintext
 [2025-06-05 09:12:42] Event 'payment_failed' for User user1 scored 0.85
-📤 Sending proactive message to User user1:
-👉 'Your recent payment failed. Want to try another card?'
+ Sending proactive message to User user1:
+ 'Your recent payment failed. Want to try another card?'
 
-🧠 Engagement recorded: Clicked ✅
+ Engagement recorded: Clicked ✅
 ```
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! To get started:
 1. Fork this repo
-2. Create a new branch (`feature/my-feature`)
+2. Create a new branch
 3. Submit a Pull Request with clear description
 
 ---
 
-## 🧾 License
-
-MIT License © 2025 [Your Name or Organization]
-
 ---
-
-## 📬 Contact
-
-Want help using this for Kore.ai or enterprise bots?  
-Message me on [LinkedIn](https://linkedin.com/in/yourprofile) or open an issue.
 
 ---
 
