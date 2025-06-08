@@ -174,7 +174,7 @@ class Event:
         self.metadata = metadata
 ```
 
-### BotOptimizer Class
+### BotOptimizer Class 
 ```python
 class BotOptimizer:
     def score_event(self, event):
