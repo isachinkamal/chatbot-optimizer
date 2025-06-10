@@ -19,7 +19,7 @@ EVENT_PRIORITIES = {
     "inventory_back": 0.5,
 }
 
-# Simple engagement history for learning
+# Simple engagement history for quick learning
 USER_ENGAGEMENT = {
     # user_id: {event_type: [clicks, total]}
 }
