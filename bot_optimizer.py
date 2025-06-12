@@ -12,6 +12,7 @@ class Event:
         self.timestamp = datetime.now()
 
 # Event priority rules
+# List of Failed Payments, Delayed Orders, Low Balance, Marketing Offer and Back Inventory
 EVENT_PRIORITIES = {
     "payment_failed": 0.9,
     "order_delayed": 0.8,
