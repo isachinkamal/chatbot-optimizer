@@ -107,7 +107,7 @@ def send_proactive_message(user_id, message):
         print(f"Error sending proactive message: {str(e)}")
         return None
 
-# Example usage with Kore.ai
+# Example usages with Kore.ai
 if __name__ == '__main__':
     # For testing webhook locally (use ngrok for public URL)
     app.run(host='0.0.0.0', port=5000)
