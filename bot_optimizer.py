@@ -83,7 +83,7 @@ class BotOptimizer:
         }
         return templates.get(event.event_type, "We have an update for you!")
 
-# Test the optimizer
+# Test the optimizer in a simple way
 if __name__ == "__main__":
     optimizer = BotOptimizer()
 
