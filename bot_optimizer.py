@@ -78,7 +78,7 @@ class BotOptimizer:
             "payment_failed": "Your recent payment failed. Want to try another card?",
             "order_delayed": "There’s a delay in your shipment. Track order here.",
             "low_balance": "Your account balance is low. Would you like to top up?",
-            "marketing_offer": "Get 10% off your next purchase. Click to claim!",
+            "marketing_offer": "Get 20% off your next purchase. Click to claim!",
             "inventory_back": "An item on your wishlist is back in stock!",
         }
         return templates.get(event.event_type, "We have an update for you!")
