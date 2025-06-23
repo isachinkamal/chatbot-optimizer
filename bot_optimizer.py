@@ -3,7 +3,7 @@ import time
 from datetime import datetime
 
 # Sample event structure
-# Definition of Event call with userID, EventType, Metadata, and Timestamp
+# Definition of Event call with userID, EventType, Metadata, & Timestamp
 class Event:
     def __init__(self, user_id, event_type, metadata):
         self.user_id = user_id
