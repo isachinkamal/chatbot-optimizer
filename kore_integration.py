@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Initialize your existing BotOptimizer
 optimizer = BotOptimizer()
 
-# Kore.ai Webhook Configuration 
+# Kore.ai Webhook Configurations
 KORE_WEBHOOK_URL = "https://your-kore-instance.com/api/webhooks/"
 BOT_ID = "your-bot-id"
 API_KEY = "your-api-key"
